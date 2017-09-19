@@ -2,10 +2,14 @@ import React from 'react';
 import data from './data.json';
 import Seleggtor from './Seleggtor'
 
+import mini from 'mini.css'
+
 class Eggs extends React.Component {
   constructor(props) {
     super(props);
-    this.onSeleggtionChanged = this.onSeleggtionChanged.bind(this);
+    this.onSeleggtionChanged = this
+      .onSeleggtionChanged
+      .bind(this);
     this.state = {
       selectedZone: data["Pondry Hills"]
     }
@@ -13,41 +17,48 @@ class Eggs extends React.Component {
   render() {
     return (
       <div id='eggs'>
-        <Seleggtor data={data} onChange={this.onSeleggtionChanged} />
-        {this.renderZone(this.state.selectedZone)}
+        <Seleggtor data={data} onChange={this.onSeleggtionChanged}/> {this.renderZone(this.state.selectedZone)}
       </div>
     );
   }
   onSeleggtionChanged(selectedZone) {
-    console.log("onSeleggtionChanged", arguments);
-    this.setState({
-      selectedZone:selectedZone
-    });
+    this.setState({selectedZone: selectedZone});
   }
   renderAllZones(zones) {
-    return Object.keys(zones).map((i)=>this.renderZone(zones[i]))
+    return Object
+      .keys(zones)
+      .map((i) => this.renderZone(zones[i]))
   }
   renderZone(zone) {
     return (
       <div className="zone">
-        <h2>{zone.name}</h2>
-        <div className="lrMons">
-          {this.renderMonsterList(zone.lowRankMonsters)}
-        </div>
-        <div className="hrmons">
-          {this.renderMonsterList(zone.highRankMonsters)}
-        </div>
+        {this.renderRankContainer(zone.lowRankMonsters, "Low Rank", "lr-monsters")}
+        {this.renderRankContainer(zone.highRankMonsters, "High Rank", "hr-monsters")}
+      </div>
+    );
+  }
+  renderRankContainer(monsters, rank, className) {
+    const fullClass = `monster-list ${className}`;
+    return (
+      <div className={fullClass}>
+        <h3 className="rank">{rank}</h3>
+        {this.renderMonsterList(monsters)}
       </div>
     );
   }
   renderMonsterList(monsters) {
-    return (<ul>{monsters.map(this.renderMonster)}</ul>)
+    return (
+      <ul>{monsters.map(this.renderMonster)}</ul>
+    )
   }
   renderMonster(mon) {
-    return ( 
-      <li key={mon.name}> 
-        <h3>{mon.name}</h3>
-        <img src={require(`./images/${mon.uri}`)} alt={`${mon.name} eggs`} />
+    return (
+      <li key={mon.name} className="single-monster">
+        <h4>{mon.name}</h4>
+        <img
+          src={require(`./images/${mon.uri}`)}
+          alt={`${mon.name} eggs`}
+          className="eggmage"/>
       </li>
     );
   }
