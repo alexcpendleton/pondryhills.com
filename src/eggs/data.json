@@ -1,294 +1,235 @@
 {
-  "zones": {
-    "Pondry Hills": {
-      "lowRankMonsters": [
-        "Aptonoth",
-        "Velocidrome",
-        "Arzuros",
-        "Yian Kut-Ku",
-        "Blue Yian Kut-Ku"
-      ],
-      "highRankMonsters": [
-        "Nargacuga",
-        "Rathalos",
-        "Azure Rathalos",
-        "Ruby Basarios",
-        "Seregios"
-      ]
-    },
-    "Darj Snowfields": {
-      "lowRankMonsters": [
-        "Popo",
-        "Lagombi",
-        "Bulldrome",
-        "Zamtrios",
-        "Khezu",
-        "Red Khezu"
-      ],
-      "highRankMonsters": [
-        "Tigrex"
-      ]
-    },
-    "Perennial Pass": {
-      "lowRankMonsters": [
-        "Pink Rathian"
-      ],
-      "highRankMonsters": []
-    },
-    "Monsonne Plains": {
-      "lowRankMonsters": [
-        "Apceros",
-        "Gendrome",
-        "Royal Ludroth",
-        "Qurupeco",
-        "Rathian"
-      ],
-      "highRankMonsters": [
-        "Kirin"
-      ]
-    },
-    "Babda Rainforest": {
-      "lowRankMonsters": [
-        "Gypceros",
-        "Nerscylla"
-      ],
-      "highRankMonsters": [
-        "Congalala",
-        "Emerald Congalala",
-        "Crimson Qurupeco",
-        "Black Gravios",
-        "Zinogre",
-        "Green Nargacuga",
-        "Purple Gypceros"
-      ]
-    },
-    "Trese Desert": {
-      "lowRankMonsters": [
-        "Barroth",
-        "Cephadrome",
-        "Bulldrome",
-        "Zamtrios",
-        "Khezu",
-        "Red Khezu"
-      ],
-      "highRankMonsters": [
-        "Sand Barioth",
-        "Monoblos"
-      ]
-    },
-    "Dovan Volcano": {
-      "lowRankMonsters": [
-        "Iodrome",
-        "Basarios",
-        "Gravios",
-        "Uragaan",
-        "Brute Tigrex"
-      ],
-      "highRankMonsters": []
-    },
-    "Paupau Beach": {
-      "lowRankMonsters": [
-        "Great Jaggi",
-        "Kecha Wacha",
-        "Purple Ludroth",
-        "Yian Garuga"
-      ],
-      "highRankMonsters": [
-        "Ash Kecha Wacha",
-        "Lagiacrus",
-        "Ivory Lagiacrus"
-      ]
-    },
-    "Mt. Celion": {
-      "lowRankMonsters": [],
-      "highRankMonsters": [
-        "Deviljho",
-        "Great Baggi",
-        "Jade Barroth",
-        "Barioth",
-        "Stygian Zinogre",
-        "Brachydios"
-      ]
-    },
-    "Tower of Illusions": {
-      "lowRankMonsters": [],
-      "highRankMonsters": [
-        "Gold Rathian",
-        "Silver Rathalos"
-      ]
-    }
+  "Pondry Hills": {
+    "lowRankMonsters": [{
+      "uri": "Aptonoth.png",
+      "name": "Aptonoth"
+    }, {
+      "uri": "Velocidrome.png",
+      "name": "Velocidrome"
+    }, {
+      "uri": "Arzuros.png",
+      "name": "Arzuros"
+    }, {
+      "uri": "Yian Kut-Ku.png",
+      "name": "Yian Kut-Ku"
+    }, {
+      "uri": "Blue Yian Kut-Ku.png",
+      "name": "Blue Yian Kut-Ku"
+    }],
+    "highRankMonsters": [{
+      "uri": "Nargacuga.png",
+      "name": "Nargacuga"
+    }, {
+      "uri": "Rathalos.png",
+      "name": "Rathalos"
+    }, {
+      "uri": "Azure Rathalos.png",
+      "name": "Azure Rathalos"
+    }, {
+      "uri": "Ruby Basarios.png",
+      "name": "Ruby Basarios"
+    }, {
+      "uri": "Seregios.png",
+      "name": "Seregios"
+    }],
+    "name": "Pondry Hills"
   },
-  "monsters": {
-    "Apceros": {
-      "uri": "Apceros.png"
-    },
-    "Aptonoth": {
-      "uri": "Aptonoth.png"
-    },
-    "Arzuros": {
-      "uri": "Arzuros.png"
-    },
-    "Ash Kecha Wacha": {
-      "uri": "Ash Kecha Wacha.png"
-    },
-    "Azure Rathalos": {
-      "uri": "Azure Rathalos.png"
-    },
-    "Barioth": {
-      "uri": "Barioth.png"
-    },
-    "Barroth": {
-      "uri": "Barroth.png"
-    },
-    "Basarios": {
-      "uri": "Basarios.png"
-    },
-    "Black Gravios": {
-      "uri": "Black Gravios.png"
-    },
-    "Blue Yian Kut-Ku": {
-      "uri": "Blue Yian Kut-Ku.png"
-    },
-    "Brachydios": {
-      "uri": "Brachydios.png"
-    },
-    "Brute Tigrex": {
-      "uri": "Brute Tigrex.png"
-    },
-    "Bulldrome": {
-      "uri": "Bulldrome.png"
-    },
-    "Cephadrome": {
-      "uri": "Cephadrome.png"
-    },
-    "Congalala": {
-      "uri": "Congalala.png"
-    },
-    "Crimson Qurupeco": {
-      "uri": "Crimson Qurupeco.png"
-    },
-    "Deviljho": {
-      "uri": "Deviljho.png"
-    },
-    "Emerald Congalala": {
-      "uri": "Emerald Congalala.png"
-    },
-    "Gendrome": {
-      "uri": "Gendrome.png"
-    },
-    "Gold Rathian": {
-      "uri": "Gold Rathian.png"
-    },
-    "Gravios": {
-      "uri": "Gravios.png"
-    },
-    "Great Baggi": {
-      "uri": "Great Baggi.png"
-    },
-    "Great Jaggi": {
-      "uri": "Great Jaggi.png"
-    },
-    "Green Nargacuga": {
-      "uri": "Green Nargacuga.png"
-    },
-    "Gypceros": {
-      "uri": "Gypceros.png"
-    },
-    "Iodrome": {
-      "uri": "Iodrome.png"
-    },
-    "Ivory Lagiacrus": {
-      "uri": "Ivory Lagiacrus.png"
-    },
-    "Jade Barroth": {
-      "uri": "Jade Barroth.png"
-    },
-    "Kecha Wacha": {
-      "uri": "Kecha Wacha.png"
-    },
-    "Khezu": {
-      "uri": "Khezu.png"
-    },
-    "Kirin": {
-      "uri": "Kirin.png"
-    },
-    "Lagiacrus": {
-      "uri": "Lagiacrus.png"
-    },
-    "Lagombi": {
-      "uri": "Lagombi.png"
-    },
-    "Monoblos": {
-      "uri": "Monoblos.png"
-    },
-    "Nargacuga": {
-      "uri": "Nargacuga.png"
-    },
-    "Nerscylla": {
-      "uri": "Nerscylla.png"
-    },
-    "Pink Rathian": {
-      "uri": "Pink Rathian.png"
-    },
-    "Popo": {
-      "uri": "Popo.png"
-    },
-    "Purple Gypceros": {
-      "uri": "Purple Gypceros.png"
-    },
-    "Purple Ludroth": {
-      "uri": "Purple Ludroth.png"
-    },
-    "Qurupeco": {
-      "uri": "Qurupeco.png"
-    },
-    "Rathalos": {
-      "uri": "Rathalos.png"
-    },
-    "Rathian": {
-      "uri": "Rathian.png"
-    },
-    "Red Khezu": {
-      "uri": "Red Khezu.png"
-    },
-    "Royal Ludroth": {
-      "uri": "Royal Ludroth.png"
-    },
-    "Ruby Basarios": {
-      "uri": "Ruby Basarios.png"
-    },
-    "Sand Barioth": {
-      "uri": "Sand Barioth.png"
-    },
-    "Seregios": {
-      "uri": "Seregios.png"
-    },
-    "Silver Rathalos": {
-      "uri": "Silver Rathalos.png"
-    },
-    "Stygian Zinogre": {
-      "uri": "Stygian Zinogre.png"
-    },
-    "Tigrex": {
-      "uri": "Tigrex.png"
-    },
-    "Uragaan": {
-      "uri": "Uragaan.png"
-    },
-    "Velocidrome": {
-      "uri": "Velocidrome.png"
-    },
-    "Yian Garuga": {
-      "uri": "Yian Garuga.png"
-    },
-    "Yian Kut-Ku": {
-      "uri": "Yian Kut-Ku.png"
-    },
-    "Zamtrios": {
-      "uri": "Zamtrios.png"
-    },
-    "Zinogre": {
-      "uri": "Zinogre.png"
-    }
+  "Darj Snowfields": {
+    "lowRankMonsters": [{
+      "uri": "Popo.png",
+      "name": "Popo"
+    }, {
+      "uri": "Lagombi.png",
+      "name": "Lagombi"
+    }, {
+      "uri": "Bulldrome.png",
+      "name": "Bulldrome"
+    }, {
+      "uri": "Zamtrios.png",
+      "name": "Zamtrios"
+    }, {
+      "uri": "Khezu.png",
+      "name": "Khezu"
+    }, {
+      "uri": "Red Khezu.png",
+      "name": "Red Khezu"
+    }],
+    "highRankMonsters": [{
+      "uri": "Tigrex.png",
+      "name": "Tigrex"
+    }],
+    "name": "Darj Snowfields"
+  },
+  "Perennial Pass": {
+    "lowRankMonsters": [{
+      "uri": "Pink Rathian.png",
+      "name": "Pink Rathian"
+    }],
+    "highRankMonsters": [],
+    "name": "Perennial Pass"
+  },
+  "Monsonne Plains": {
+    "lowRankMonsters": [{
+      "uri": "Apceros.png",
+      "name": "Apceros"
+    }, {
+      "uri": "Gendrome.png",
+      "name": "Gendrome"
+    }, {
+      "uri": "Royal Ludroth.png",
+      "name": "Royal Ludroth"
+    }, {
+      "uri": "Qurupeco.png",
+      "name": "Qurupeco"
+    }, {
+      "uri": "Rathian.png",
+      "name": "Rathian"
+    }],
+    "highRankMonsters": [{
+      "uri": "Kirin.png",
+      "name": "Kirin"
+    }],
+    "name": "Monsonne Plains"
+  },
+  "Babda Rainforest": {
+    "lowRankMonsters": [{
+      "uri": "Gypceros.png",
+      "name": "Gypceros"
+    }, {
+      "uri": "Nerscylla.png",
+      "name": "Nerscylla"
+    }],
+    "highRankMonsters": [{
+      "uri": "Congalala.png",
+      "name": "Congalala"
+    }, {
+      "uri": "Emerald Congalala.png",
+      "name": "Emerald Congalala"
+    }, {
+      "uri": "Crimson Qurupeco.png",
+      "name": "Crimson Qurupeco"
+    }, {
+      "uri": "Black Gravios.png",
+      "name": "Black Gravios"
+    }, {
+      "uri": "Zinogre.png",
+      "name": "Zinogre"
+    }, {
+      "uri": "Green Nargacuga.png",
+      "name": "Green Nargacuga"
+    }, {
+      "uri": "Purple Gypceros.png",
+      "name": "Purple Gypceros"
+    }],
+    "name": "Babda Rainforest"
+  },
+  "Trese Desert": {
+    "lowRankMonsters": [{
+      "uri": "Barroth.png",
+      "name": "Barroth"
+    }, {
+      "uri": "Cephadrome.png",
+      "name": "Cephadrome"
+    }, {
+      "uri": "Bulldrome.png",
+      "name": "Bulldrome"
+    }, {
+      "uri": "Zamtrios.png",
+      "name": "Zamtrios"
+    }, {
+      "uri": "Khezu.png",
+      "name": "Khezu"
+    }, {
+      "uri": "Red Khezu.png",
+      "name": "Red Khezu"
+    }],
+    "highRankMonsters": [{
+      "uri": "Sand Barioth.png",
+      "name": "Sand Barioth"
+    }, {
+      "uri": "Monoblos.png",
+      "name": "Monoblos"
+    }],
+    "name": "Trese Desert"
+  },
+  "Dovan Volcano": {
+    "lowRankMonsters": [{
+      "uri": "Iodrome.png",
+      "name": "Iodrome"
+    }, {
+      "uri": "Basarios.png",
+      "name": "Basarios"
+    }, {
+      "uri": "Gravios.png",
+      "name": "Gravios"
+    }, {
+      "uri": "Uragaan.png",
+      "name": "Uragaan"
+    }, {
+      "uri": "Brute Tigrex.png",
+      "name": "Brute Tigrex"
+    }],
+    "highRankMonsters": [],
+    "name": "Dovan Volcano"
+  },
+  "Paupau Beach": {
+    "lowRankMonsters": [{
+      "uri": "Great Jaggi.png",
+      "name": "Great Jaggi"
+    }, {
+      "uri": "Kecha Wacha.png",
+      "name": "Kecha Wacha"
+    }, {
+      "uri": "Purple Ludroth.png",
+      "name": "Purple Ludroth"
+    }, {
+      "uri": "Yian Garuga.png",
+      "name": "Yian Garuga"
+    }],
+    "highRankMonsters": [{
+      "uri": "Ash Kecha Wacha.png",
+      "name": "Ash Kecha Wacha"
+    }, {
+      "uri": "Lagiacrus.png",
+      "name": "Lagiacrus"
+    }, {
+      "uri": "Ivory Lagiacrus.png",
+      "name": "Ivory Lagiacrus"
+    }],
+    "name": "Paupau Beach"
+  },
+  "Mt. Celion": {
+    "lowRankMonsters": [],
+    "highRankMonsters": [{
+      "uri": "Deviljho.png",
+      "name": "Deviljho"
+    }, {
+      "uri": "Great Baggi.png",
+      "name": "Great Baggi"
+    }, {
+      "uri": "Jade Barroth.png",
+      "name": "Jade Barroth"
+    }, {
+      "uri": "Barioth.png",
+      "name": "Barioth"
+    }, {
+      "uri": "Stygian Zinogre.png",
+      "name": "Stygian Zinogre"
+    }, {
+      "uri": "Brachydios.png",
+      "name": "Brachydios"
+    }],
+    "name": "Mt. Celion"
+  },
+  "Tower of Illusions": {
+    "lowRankMonsters": [],
+    "highRankMonsters": [{
+      "uri": "Gold Rathian.png",
+      "name": "Gold Rathian"
+    }, {
+      "uri": "Silver Rathalos.png",
+      "name": "Silver Rathalos"
+    }],
+    "name": "Tower of Illusions"
   }
 }
