@@ -4,11 +4,11 @@
       "uri": "Aptonoth.png",
       "name": "Aptonoth"
     }, {
-      "uri": "Velocidrome.png",
-      "name": "Velocidrome"
-    }, {
       "uri": "Arzuros.png",
       "name": "Arzuros"
+    }, {
+      "uri": "Velocidrome.png",
+      "name": "Velocidrome"
     }, {
       "uri": "Yian Kut-Ku.png",
       "name": "Yian Kut-Ku"
@@ -45,14 +45,14 @@
       "uri": "Bulldrome.png",
       "name": "Bulldrome"
     }, {
-      "uri": "Zamtrios.png",
-      "name": "Zamtrios"
-    }, {
       "uri": "Khezu.png",
       "name": "Khezu"
     }, {
       "uri": "Red Khezu.png",
       "name": "Red Khezu"
+    }, {
+      "uri": "Zamtrios.png",
+      "name": "Zamtrios"
     }],
     "highRankMonsters": [{
       "uri": "Tigrex.png",
@@ -61,24 +61,24 @@
     "name": "Darj Snowfields"
   },
   "Perennial Pass": {
-    "lowRankMonsters": [{
-      "uri": "Pink Rathian.png",
-      "name": "Pink Rathian"
-    },{
+    "lowRankMonsters": [ {
       "uri": "Apceros.png",
       "name": "Apceros"
     }, {
       "uri": "Gendrome.png",
       "name": "Gendrome"
     }, {
-      "uri": "Royal Ludroth.png",
-      "name": "Royal Ludroth"
-    }, {
       "uri": "Qurupeco.png",
       "name": "Qurupeco"
     }, {
       "uri": "Rathian.png",
       "name": "Rathian"
+    }, {
+      "uri": "Pink Rathian.png",
+      "name": "Pink Rathian"
+    }, {
+      "uri": "Royal Ludroth.png",
+      "name": "Royal Ludroth"
     }],
     "highRankMonsters": [{
       "uri": "Kirin.png",
@@ -94,11 +94,11 @@
       "uri": "Gendrome.png",
       "name": "Gendrome"
     }, {
-      "uri": "Royal Ludroth.png",
-      "name": "Royal Ludroth"
-    }, {
       "uri": "Qurupeco.png",
       "name": "Qurupeco"
+    }, {
+      "uri": "Royal Ludroth.png",
+      "name": "Royal Ludroth"
     }, {
       "uri": "Rathian.png",
       "name": "Rathian"
@@ -118,6 +118,9 @@
       "name": "Nerscylla"
     }],
     "highRankMonsters": [{
+      "uri": "Black Gravios.png",
+      "name": "Black Gravios"
+    }, {
       "uri": "Congalala.png",
       "name": "Congalala"
     }, {
@@ -127,17 +130,14 @@
       "uri": "Crimson Qurupeco.png",
       "name": "Crimson Qurupeco"
     }, {
-      "uri": "Black Gravios.png",
-      "name": "Black Gravios"
-    }, {
-      "uri": "Zinogre.png",
-      "name": "Zinogre"
-    }, {
       "uri": "Green Nargacuga.png",
       "name": "Green Nargacuga"
     }, {
       "uri": "Purple Gypceros.png",
       "name": "Purple Gypceros"
+    }, {
+      "uri": "Zinogre.png",
+      "name": "Zinogre"
     }],
     "name": "Babda Rainforest"
   },
@@ -146,37 +146,43 @@
       "uri": "Barroth.png",
       "name": "Barroth"
     }, {
+      "uri": "Black Diablos.png",
+      "name": "Black Diablos"
+    }, {
       "uri": "Cephadrome.png",
       "name": "Cephadrome"
     }, {
-      "uri": "Bulldrome.png",
-      "name": "Bulldrome"
+      "uri": "Diablos.png",
+      "name": "Diablos"
+    }, {
+      "uri": "Shrouded Nerscylla.png",
+      "name": "Shrouded Nerscylla"
     }],
     "highRankMonsters": [{
-      "uri": "Sand Barioth.png",
-      "name": "Sand Barioth"
-    }, {
       "uri": "Monoblos.png",
       "name": "Monoblos"
+    }, {
+      "uri": "Sand Barioth.png",
+      "name": "Sand Barioth"
     }],
     "name": "Trese Desert"
   },
   "Dovan Volcano": {
     "lowRankMonsters": [{
-      "uri": "Iodrome.png",
-      "name": "Iodrome"
-    }, {
       "uri": "Basarios.png",
       "name": "Basarios"
+    }, {
+      "uri": "Brute Tigrex.png",
+      "name": "Brute Tigrex"
+    }, {
+      "uri": "Iodrome.png",
+      "name": "Iodrome"
     }, {
       "uri": "Gravios.png",
       "name": "Gravios"
     }, {
       "uri": "Uragaan.png",
       "name": "Uragaan"
-    }, {
-      "uri": "Brute Tigrex.png",
-      "name": "Brute Tigrex"
     }],
     "highRankMonsters": [],
     "name": "Dovan Volcano"
@@ -210,23 +216,23 @@
   "Mt. Celion": {
     "lowRankMonsters": [],
     "highRankMonsters": [{
+      "uri": "Barioth.png",
+      "name": "Barioth"
+    }, {
+      "uri": "Brachydios.png",
+      "name": "Brachydios"
+    }, {
       "uri": "Deviljho.png",
       "name": "Deviljho"
-    }, {
+    },{
       "uri": "Great Baggi.png",
       "name": "Great Baggi"
     }, {
       "uri": "Jade Barroth.png",
       "name": "Jade Barroth"
     }, {
-      "uri": "Barioth.png",
-      "name": "Barioth"
-    }, {
       "uri": "Stygian Zinogre.png",
       "name": "Stygian Zinogre"
-    }, {
-      "uri": "Brachydios.png",
-      "name": "Brachydios"
     }],
     "name": "Mt. Celion"
   },
