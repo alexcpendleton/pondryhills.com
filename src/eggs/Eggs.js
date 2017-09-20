@@ -38,6 +38,7 @@ class Eggs extends React.Component {
     );
   }
   renderRankContainer(monsters, rank, className) {
+    if(!monsters || !monsters.length) return "";
     const fullClass = `monster-list ${className}`;
     return (
       <div className={fullClass}>

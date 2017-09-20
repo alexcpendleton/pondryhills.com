@@ -64,8 +64,26 @@
     "lowRankMonsters": [{
       "uri": "Pink Rathian.png",
       "name": "Pink Rathian"
+    },{
+      "uri": "Apceros.png",
+      "name": "Apceros"
+    }, {
+      "uri": "Gendrome.png",
+      "name": "Gendrome"
+    }, {
+      "uri": "Royal Ludroth.png",
+      "name": "Royal Ludroth"
+    }, {
+      "uri": "Qurupeco.png",
+      "name": "Qurupeco"
+    }, {
+      "uri": "Rathian.png",
+      "name": "Rathian"
     }],
-    "highRankMonsters": [],
+    "highRankMonsters": [{
+      "uri": "Kirin.png",
+      "name": "Kirin"
+    }],
     "name": "Perennial Pass"
   },
   "Monsonne Plains": {
@@ -133,15 +151,6 @@
     }, {
       "uri": "Bulldrome.png",
       "name": "Bulldrome"
-    }, {
-      "uri": "Zamtrios.png",
-      "name": "Zamtrios"
-    }, {
-      "uri": "Khezu.png",
-      "name": "Khezu"
-    }, {
-      "uri": "Red Khezu.png",
-      "name": "Red Khezu"
     }],
     "highRankMonsters": [{
       "uri": "Sand Barioth.png",
