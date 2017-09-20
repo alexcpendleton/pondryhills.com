@@ -15,7 +15,6 @@ class Seleggtor extends React.Component {
     );
   }
   renderOption(name) {
-    console.log(name);
     return (<option key={name} value={name}>{name}</option>)
   }
   onChange(event) {
