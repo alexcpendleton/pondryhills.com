@@ -2,7 +2,7 @@ import React from 'react';
 import data from './data.json';
 import Seleggtor from './Seleggtor'
 
-import mini from 'mini.css'
+import 'mini.css'
 
 class Eggs extends React.Component {
   constructor(props) {
