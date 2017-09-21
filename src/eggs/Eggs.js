@@ -15,6 +15,12 @@ class Eggs extends React.Component {
       selectedZone: data["Pondry Hills"]
     }
   }
+  componentDidMount() {
+    document.title = this.props.title;
+  }
+  setTitle(to) {
+    document.title = to;
+  }
   render() {
     return (
       <div id='eggs'>
@@ -69,5 +75,7 @@ class Eggs extends React.Component {
     );
   }
 }
-
+Eggs.defaultProps = {
+  title:"MHST Egg Location Guide - PondryHills.com"
+}
 export default Eggs;
