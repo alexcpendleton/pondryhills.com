@@ -8,3 +8,5 @@
 #seleggtor select { width:100%; text-align:center;}
 .monster-list ul {padding:0;}
 .monster-list .rank { text-decoration: underline;}
+
+#eggs #about a {display:inline-block; font-size:0.9rem;}

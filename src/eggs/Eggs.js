@@ -1,6 +1,7 @@
 import React from 'react';
 import data from './data.json';
 import Seleggtor from './Seleggtor'
+import About from './About'
 
 import 'mini.css'
 
@@ -17,7 +18,11 @@ class Eggs extends React.Component {
   render() {
     return (
       <div id='eggs'>
-        <Seleggtor data={data} onChange={this.onSeleggtionChanged}/> {this.renderZone(this.state.selectedZone)}
+        <Seleggtor data={data} onChange={this.onSeleggtionChanged}/> 
+        <div id="zones">
+        {this.renderZone(this.state.selectedZone)}
+        </div>
+        <About />
       </div>
     );
   }
