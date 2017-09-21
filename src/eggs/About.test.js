@@ -42,7 +42,7 @@ describe('github', () => {
     expect(githubLink.prop("href")).toEqual(uri)
   });
   it('should use the actual repository URI when not overridden', () => {
-    const uri = "https://alexcpendleton.github.com/pondryhills.com";
+    const uri = "https://github.com/alexcpendleton/pondryhills.com";
     const component = render();
     const githubLink = component.find("a#github");
     expect(githubLink.prop("href")).toEqual(uri);

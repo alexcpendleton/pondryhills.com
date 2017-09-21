@@ -14,7 +14,7 @@ class About extends React.Component {
 }
 
 About.defaultProps = {
-  github: "https://alexcpendleton.github.com/pondryhills.com",
+  github: "https://github.com/alexcpendleton/pondryhills.com",
   email: "vespoids@pondryhills.com",
   subject: "I found an issue!"
 };
