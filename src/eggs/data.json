@@ -51,13 +51,13 @@
       "uri": "Red Khezu.png",
       "name": "Red Khezu"
     }, {
+      "uri": "Tigrex.png",
+      "name": "Tigrex"
+    }, {
       "uri": "Zamtrios.png",
       "name": "Zamtrios"
     }],
-    "highRankMonsters": [{
-      "uri": "Tigrex.png",
-      "name": "Tigrex"
-    }],
+    "highRankMonsters": [],
     "name": "Darj Snowfields"
   },
   "Perennial Pass": {
