@@ -91,8 +91,23 @@
       "uri": "Apceros.png",
       "name": "Apceros"
     }, {
+      "uri": "Cephadrome.png",
+      "name": "Cephadrome"
+    }, {
+      "uri": "Diablos.png",
+      "name": "Diablos"
+    }, {
+      "uri": "Black Diablos.png",
+      "name": "Black Diablos"
+    }, {
       "uri": "Gendrome.png",
       "name": "Gendrome"
+    }, {
+      "uri": "Gypceros.png",
+      "name": "Gypceros"
+    }, {
+      "uri": "Nerscylla.png",
+      "name": "Nerscylla"
     }, {
       "uri": "Qurupeco.png",
       "name": "Qurupeco"
@@ -102,6 +117,9 @@
     }, {
       "uri": "Rathian.png",
       "name": "Rathian"
+    }, {
+      "uri": "Pink Rathian.png",
+      "name": "Pink Rathian"
     }],
     "highRankMonsters": [{
       "uri": "Kirin.png",
