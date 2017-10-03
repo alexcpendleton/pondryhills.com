@@ -1,6 +1,7 @@
 import React from 'react';
 import data from './data.json';
 import Seleggtor from './Seleggtor'
+import Qualifiers from './Qualifiers'
 import About from './About'
 
 import 'mini.css'
@@ -66,7 +67,7 @@ class Eggs extends React.Component {
   renderMonster(mon) {
     return (
       <li key={mon.name} className="single-monster">
-        <h4>{mon.name}</h4>
+        <h4>{mon.name} <Qualifiers qualifiers={mon.qualifiers} /></h4>
         <img
           src={require(`./images/${mon.uri}`)}
           alt={`${mon.name} eggs`}

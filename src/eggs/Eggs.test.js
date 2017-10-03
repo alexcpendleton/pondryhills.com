@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Eggs from './Eggs';
+import Qualifiers from './Qualifiers';
 import About from './About'
 import { shallow } from 'enzyme';
 
@@ -22,4 +23,3 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Eggs />, div);
 });
-

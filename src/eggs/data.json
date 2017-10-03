@@ -15,20 +15,24 @@
     }, {
       "uri": "Blue Yian Kut-Ku.png",
       "name": "Blue Yian Kut-Ku"
-    }],
-    "highRankMonsters": [{
-      "uri": "Nargacuga.png",
-      "name": "Nargacuga"
     }, {
       "uri": "Rathalos.png",
-      "name": "Rathalos"
+      "name": "Rathalos",
+      "qualifiers":["Late-game"]
     }, {
       "uri": "Azure Rathalos.png",
-      "name": "Azure Rathalos"
+      "name": "Azure Rathalos",
+      "qualifiers":["Late-game"]
+    }, {
+      "uri": "Nargacuga.png",
+      "name": "Nargacuga",
+      "qualifiers":["Late-game"]
     }, {
       "uri": "Ruby Basarios.png",
-      "name": "Ruby Basarios"
-    }, {
+      "name": "Ruby Basarios",
+      "qualifiers":["Late-game"]
+    }],
+    "highRankMonsters": [{
       "uri": "Seregios.png",
       "name": "Seregios"
     }],
@@ -52,7 +56,8 @@
       "name": "Red Khezu"
     }, {
       "uri": "Tigrex.png",
-      "name": "Tigrex"
+      "name": "Tigrex",
+      "qualifiers":["Unlockable", "DLC"]
     }, {
       "uri": "Zamtrios.png",
       "name": "Zamtrios"
@@ -142,28 +147,38 @@
     }, {
       "uri": "Nerscylla.png",
       "name": "Nerscylla"
-    }],
-    "highRankMonsters": [{
+    },{
+      "uri": "Gravios.png",
+      "name": "Gravios",
+      "qualifiers": ["Peculiar Den"]
+    }, {
       "uri": "Black Gravios.png",
-      "name": "Black Gravios"
+      "name": "Black Gravios",
+      "qualifiers": ["Peculiar Den"]
     }, {
       "uri": "Congalala.png",
-      "name": "Congalala"
+      "name": "Congalala",
+      "qualifiers": ["Peculiar Den"]
     }, {
       "uri": "Emerald Congalala.png",
-      "name": "Emerald Congalala"
+      "name": "Emerald Congalala",
+      "qualifiers": ["Peculiar Den"]
     }, {
       "uri": "Crimson Qurupeco.png",
-      "name": "Crimson Qurupeco"
+      "name": "Crimson Qurupeco",
+      "qualifiers": ["Peculiar Den"]
     }, {
       "uri": "Green Nargacuga.png",
-      "name": "Green Nargacuga"
+      "name": "Green Nargacuga",
+      "qualifiers": ["Peculiar Den"]
     }, {
       "uri": "Purple Gypceros.png",
-      "name": "Purple Gypceros"
+      "name": "Purple Gypceros",
+      "qualifiers": ["Peculiar Den"]
     }, {
       "uri": "Zinogre.png",
-      "name": "Zinogre"
+      "name": "Zinogre",
+      "qualifiers": ["Peculiar Den"]
     }],
     "name": "Babda Rainforest"
   },
@@ -183,13 +198,14 @@
     }, {
       "uri": "Shrouded Nerscylla.png",
       "name": "Shrouded Nerscylla"
+    }, {
+      "uri": "Sand Barioth.png",
+      "name": "Sand Barioth",
+      "qualifiers": ["Late-game"]
     }],
     "highRankMonsters": [{
       "uri": "Monoblos.png",
       "name": "Monoblos"
-    }, {
-      "uri": "Sand Barioth.png",
-      "name": "Sand Barioth"
     }],
     "name": "Trese Desert"
   },
@@ -201,11 +217,11 @@
       "uri": "Brute Tigrex.png",
       "name": "Brute Tigrex"
     }, {
-      "uri": "Iodrome.png",
-      "name": "Iodrome"
-    }, {
       "uri": "Gravios.png",
       "name": "Gravios"
+    }, {
+      "uri": "Iodrome.png",
+      "name": "Iodrome"
     }, {
       "uri": "Uragaan.png",
       "name": "Uragaan"
@@ -224,24 +240,26 @@
       "uri": "Purple Ludroth.png",
       "name": "Purple Ludroth"
     }, {
-      "uri": "Yian Garuga.png",
-      "name": "Yian Garuga"
-    }],
-    "highRankMonsters": [{
       "uri": "Ash Kecha Wacha.png",
-      "name": "Ash Kecha Wacha"
+      "name": "Ash Kecha Wacha",
+      "qualifiers":["Late-game"]
     }, {
       "uri": "Lagiacrus.png",
-      "name": "Lagiacrus"
+      "name": "Lagiacrus",
+      "qualifiers":["Late-game"]
     }, {
       "uri": "Ivory Lagiacrus.png",
-      "name": "Ivory Lagiacrus"
+      "name": "Ivory Lagiacrus",
+      "qualifiers":["Late-game"]
+    }, {
+      "uri": "Yian Garuga.png",
+      "name": "Yian Garuga",
+      "qualifiers":["Late-game"]
     }],
     "name": "Paupau Beach"
   },
   "Mt. Celion": {
-    "lowRankMonsters": [],
-    "highRankMonsters": [{
+    "lowRankMonsters": [{
       "uri": "Barioth.png",
       "name": "Barioth"
     }, {
@@ -260,6 +278,7 @@
       "uri": "Stygian Zinogre.png",
       "name": "Stygian Zinogre"
     }],
+    "highRankMonsters":[],
     "name": "Mt. Celion"
   },
   "Tower of Illusions": {
