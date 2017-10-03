@@ -43,11 +43,15 @@
       "uri": "Popo.png",
       "name": "Popo"
     }, {
-      "uri": "Lagombi.png",
-      "name": "Lagombi"
+      "uri": "Barioth.png",
+      "name": "Barioth",
+      "qualifiers": ["Late-game"]
     }, {
       "uri": "Bulldrome.png",
       "name": "Bulldrome"
+    }, {
+      "uri": "Lagombi.png",
+      "name": "Lagombi"
     }, {
       "uri": "Khezu.png",
       "name": "Khezu"
