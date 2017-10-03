@@ -91,6 +91,10 @@
       "uri": "Apceros.png",
       "name": "Apceros"
     }, {
+      "uri": "Barroth.png",
+      "name": "Barroth",
+      "notes": "Found in rare monster dens"
+    }, {
       "uri": "Cephadrome.png",
       "name": "Cephadrome"
     }, {
@@ -108,6 +112,10 @@
     }, {
       "uri": "Nerscylla.png",
       "name": "Nerscylla"
+    }, {
+      "uri": "Shrouded Nerscylla.png",
+      "name": "Shrouded Nerscylla",
+      "notes": "Found in rare monster dens"
     }, {
       "uri": "Qurupeco.png",
       "name": "Qurupeco"
