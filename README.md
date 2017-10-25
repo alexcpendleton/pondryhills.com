@@ -58,6 +58,10 @@ Consult the [create-react-app readme](https://github.com/facebookincubator/creat
 
 You are welcome to submit pull requests and issues, especially for data inaccuracies. 
 
+## Acknowledgements
+* The images and much of the data is directly from: [https://www.gamefaqs.com/3ds/146555-monster-hunter-stories/faqs/74891/egg-list-all-versions](https://www.gamefaqs.com/3ds/146555-monster-hunter-stories/faqs/74891/egg-list-all-versions)
+* Many data corrections and feature requests were submitted by the fine people in my Reddit post: [https://www.reddit.com/r/MonsterHunter/comments/71na35/mhst_egg_location_guide/](https://www.reddit.com/r/MonsterHunter/comments/71na35/mhst_egg_location_guide/)
+
 ## License
 
 This project is licensed under the Unlicense - see the [LICENSE](LICENSE) file for details.
